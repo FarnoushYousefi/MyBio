@@ -30,17 +30,25 @@ a {
 }
 
 .container {
+  /* display:flex;
   width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto; */
+  display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* width: 80%; */
+    margin: 0 auto;
 }
 
-#main-bio,
+/* #main-bio,
 #contact-info,
 #bio-image {
   float: left;
-}
+}  */
 
 #main-bio {
+  display:flex;
+  flex-direction: column;
   width: 70%;
 }
 
@@ -52,4 +60,7 @@ a {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+}
+#para{
+  text-align: center;
 }
